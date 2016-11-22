@@ -1,0 +1,6 @@
+apply plugin: 'java'
+jar {
+    manifest {
+    	     attribute 'Main-Class':'uk.ac.kcl.app.HelloWorld'
+	     }
+}
